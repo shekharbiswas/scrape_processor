@@ -5,9 +5,11 @@ from fake_useragent import UserAgent
 
 import json
 from time import sleep
+import urllib.request
+
 
 # Create an Extractor by reading from the YAML file
-e = Extractor.from_yaml_file('youtube/scrape-images/products.yml')
+e = Extractor.from_yaml_file('products.yml')
 
 def scrape(url):
 
@@ -41,18 +43,16 @@ def scrape(url):
     return e.extract(r.text)
 
 # product_data = []
-with open("youtube/scrape-images/product_urls.txt",'r') as urllist, open('youtube/scrape-images/product_output.jsonl','w') as outfile:
+with open("product_urls.txt",'r') as urllist, open('product_output.jsonl','w') as outfile:
     for url in urllist.read().splitlines():
         data = scrape(url) 
         if data:
+
+            data['images'] = data['images'] .split('\":')[0].split('{"')[1]
+            urllib.request.urlretrieve(data['images'], "processor.jpg")
+
             try:
-                data['seller_link'] = 'https://www.amazon.com' + data['seller_link']
-                data['freq_bought_link'] = 'https://www.amazon.com' + data['freq_bought_link']
                 json.dump(data,outfile)
                 outfile.write("\n")
-
             except:
-                json.dump(data,outfile)
-                outfile.write("\n")
-
-            # sleep(1)
+                continue
