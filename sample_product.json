@@ -118,4 +118,63 @@
 	"freq_bought": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3200 (PC4-25600) C16 Desktop Memory - Black",
 	"freq_bought_link": "/Corsair-CMW32GX4M2C3200C16-Vengeance-PC4-25600-Desktop/dp/B07GTG2T7L/ref=pd_bxgy_2/130-8043931-8685907?_encoding=UTF8&pd_rd_i=B07GTG2T7L&pd_rd_r=763c20fa-742b-4ec5-9962-4742952fb91a&pd_rd_w=QDQtY&pd_rd_wg=h6bc8&pf_rd_p=ce6c479b-ef53-49a6-845b-bbbf35c28dd3&pf_rd_r=W39TNWTPW5KA95SCNGKA&psc=1&refRID=W39TNWTPW5KA95SCNGKA",
 	"link_to_all_reviews": "/Ryzen-3900X-Procesador-escritorio-desbloqueado/product-reviews/B07SXMZLP9/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews"
-}]
+},
+{
+	"name": "AMD Ryzen 9 3900X 12-core, 24-thread unlocked desktop processor with Wraith Prism LED Cooler",
+	"product_tech_spec": [{
+		"info": "Brand",
+		"value": "AMD"
+	}, {
+		"info": "Series",
+		"value": "Ryzen 9"
+	}, {
+		"info": "Item model number",
+		"value": "Ryzen 9 3900X"
+	}, {
+		"info": "Item Weight",
+		"value": "1.6 ounces"
+	}, {
+		"info": "Product Dimensions",
+		"value": "1.57 x 1.57 x 0.24 inches"
+	}, {
+		"info": "Item Dimensions  L x W x H",
+		"value": "1.57 x 1.57 x 0.24 inches"
+	}, {
+		"info": "Processor Brand",
+		"value": "AMD"
+	}, {
+		"info": "Processor Count",
+		"value": "12"
+	}, {
+		"info": "Manufacturer",
+		"value": "AMD"
+	}, {
+		"info": "ASIN",
+		"value": "B07SXMZLP9"
+	}, {
+		"info": "Is Discontinued By Manufacturer",
+		"value": "No"
+	}, {
+		"info": "Date First Available",
+		"value": "July 1, 2019"
+	}],
+	"product_addl_info": [{
+		"info": "ASIN",
+		"value": "B07SXMZLP9"
+	}, {
+		"info": "Customer Reviews",
+		"value": "/*\n* Fix for UDP-1061. Average customer reviews has a small extra line on hover\n* https://omni-grok.amazon.com/xref/src/appgroup/websiteTemplates/retail/SoftlinesDetailPageAssets/udp-intl-lock/src/legacy.css?indexName=WebsiteTemplates#40\n*/\n.noUnderline a:hover {\ntext-decoration: none;\n} 4.9 out of 5 stars 2,090 ratings P.when('A', 'ready').execute(function(A) {\nA.declarative('acrLink-click-metrics', 'click', { \"allowLinkDefault\" : true }, function(event){\nif(window.ue) {\nue.count(\"acrLinkClickCount\", (ue.count(\"acrLinkClickCount\") || 0) + 1);\n}\n});\n}); P.when('A', 'cf').execute(function(A) {\nA.declarative('acrStarsLink-click-metrics', 'click', { \"allowLinkDefault\" : true },  function(event){\nif(window.ue) {\nue.count(\"acrStarsLinkWithPopoverClickCount\", (ue.count(\"acrStarsLinkWithPopoverClickCount\") || 0) + 1);\n}\n});\n}); 4.9 out of 5 stars"
+	}, {
+		"info": "Best Sellers Rank",
+		"value": "#4 in Computer CPU Processors"
+	}, {
+		"info": "Date First Available",
+		"value": "July 1, 2019"
+	}],
+	"seller": null,
+	"seller_link": null,
+	"freq_bought": "Corsair Vengeance RGB Pro 32GB (2x16GB) DDR4 3200 (PC4-25600) C16 Desktop Memory - Black",
+	"freq_bought_link": "/Corsair-CMW32GX4M2C3200C16-Vengeance-PC4-25600-Desktop/dp/B07GTG2T7L/ref=pd_bxgy_2/130-8043931-8685907?_encoding=UTF8&pd_rd_i=B07GTG2T7L&pd_rd_r=763c20fa-742b-4ec5-9962-4742952fb91a&pd_rd_w=QDQtY&pd_rd_wg=h6bc8&pf_rd_p=ce6c479b-ef53-49a6-845b-bbbf35c28dd3&pf_rd_r=W39TNWTPW5KA95SCNGKA&psc=1&refRID=W39TNWTPW5KA95SCNGKA",
+	"link_to_all_reviews": "/Ryzen-3900X-Procesador-escritorio-desbloqueado/product-reviews/B07SXMZLP9/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews"
+}
+]
