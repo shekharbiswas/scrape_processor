@@ -2,6 +2,18 @@ name:
     css: '#productTitle'
     type: Text
 
+product_summary:
+    css: '#productDetails_techSpec_section_2 tr'
+    multiple: true
+    type: Text
+    children:
+        info:
+            css: th
+            type: Text
+        value:
+            css: td
+            type: Text
+
 product_tech_spec:
     css: '#productDetails_techSpec_section_1 tr'
     multiple: true
